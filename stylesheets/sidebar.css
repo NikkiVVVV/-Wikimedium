@@ -1,17 +1,17 @@
 sidebar {
   display: block;
-  position:
+  position:fixed;
   width: 300px;
   left: 20px;
-  top: 20px;
+  top: 50px;
   padding: 30px;
   box-sizing: border-box;
   opacity: 1;
-  transition: opacit y 2s easy-out;
+  transition: opacity 2s ease-out;
 }
   sidebar:hover {
     opacity: 1;
-    transition: opacity .3s ease;
+    transition: opacity .10s ease;
 }
 sidebar ul {
   width: 100%;
